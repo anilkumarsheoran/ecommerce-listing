@@ -56,3 +56,5 @@ SelectBox.propTypes = {
   className: PropTypes.string
 };
 export default withStyles(SelectBox, styles);
+
+export { SelectBox };

@@ -1,0 +1,359 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Product Component should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Product
+    item={
+      Object {
+        "index": 0,
+        "isExclusive": false,
+        "isSale": true,
+        "price": "$18.88",
+        "productImage": "product-1.jpg",
+        "productName": "Striped shirt",
+        "size": Array [
+          "S",
+          "L",
+          "XL",
+        ],
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <Styled(Image)
+          alt="Striped shirt"
+          src="/static/product-1.jpg"
+        />,
+        <div>
+          <div
+            className="sale-tag"
+          >
+            Sale
+             
+          </div>
+          <div
+            className="product-description"
+          >
+            <div
+              className="product-name"
+            >
+              Striped shirt
+            </div>
+            <div
+              className="product-price"
+            >
+              $18.88
+            </div>
+          </div>
+        </div>,
+      ],
+      "className": undefined,
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "alt": "Striped shirt",
+          "src": "/static/product-1.jpg",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            false,
+            <div
+              className="sale-tag"
+            >
+              Sale
+               
+            </div>,
+            <div
+              className="product-description"
+            >
+              <div
+                className="product-name"
+              >
+                Striped shirt
+              </div>
+              <div
+                className="product-price"
+              >
+                $18.88
+              </div>
+            </div>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          false,
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "Sale",
+                " ",
+              ],
+              "className": "sale-tag",
+            },
+            "ref": null,
+            "rendered": Array [
+              "Sale",
+              " ",
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="product-name"
+                >
+                  Striped shirt
+                </div>,
+                <div
+                  className="product-price"
+                >
+                  $18.88
+                </div>,
+              ],
+              "className": "product-description",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Striped shirt",
+                  "className": "product-name",
+                },
+                "ref": null,
+                "rendered": "Striped shirt",
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "$18.88",
+                  "className": "product-price",
+                },
+                "ref": null,
+                "rendered": "$18.88",
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "li",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <Styled(Image)
+            alt="Striped shirt"
+            src="/static/product-1.jpg"
+          />,
+          <div>
+            <div
+              className="sale-tag"
+            >
+              Sale
+               
+            </div>
+            <div
+              className="product-description"
+            >
+              <div
+                className="product-name"
+              >
+                Striped shirt
+              </div>
+              <div
+                className="product-price"
+              >
+                $18.88
+              </div>
+            </div>
+          </div>,
+        ],
+        "className": undefined,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "alt": "Striped shirt",
+            "src": "/static/product-1.jpg",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              false,
+              <div
+                className="sale-tag"
+              >
+                Sale
+                 
+              </div>,
+              <div
+                className="product-description"
+              >
+                <div
+                  className="product-name"
+                >
+                  Striped shirt
+                </div>
+                <div
+                  className="product-price"
+                >
+                  $18.88
+                </div>
+              </div>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            false,
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "Sale",
+                  " ",
+                ],
+                "className": "sale-tag",
+              },
+              "ref": null,
+              "rendered": Array [
+                "Sale",
+                " ",
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="product-name"
+                  >
+                    Striped shirt
+                  </div>,
+                  <div
+                    className="product-price"
+                  >
+                    $18.88
+                  </div>,
+                ],
+                "className": "product-description",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Striped shirt",
+                    "className": "product-name",
+                  },
+                  "ref": null,
+                  "rendered": "Striped shirt",
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "$18.88",
+                    "className": "product-price",
+                  },
+                  "ref": null,
+                  "rendered": "$18.88",
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "li",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;

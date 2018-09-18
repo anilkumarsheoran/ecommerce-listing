@@ -33,3 +33,4 @@ Product.propTypes = {
 };
 
 export default withStyle(Product, style);
+export { Product };

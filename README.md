@@ -17,6 +17,10 @@
 - yarn run dev or npm run dev
 - open url [http://localhost:3000/](http://localhost:3000/)
 
+##Test Cases
+
+- npm run test
+
 ## Scalable Frontend Architecture
 
 This Architecture with the methodology Atomic Design using a few cool things, like Styled-compomemt,ES6 and Next.js and ReactJS.
@@ -108,4 +112,3 @@ const Link = styled.a`
   }
 `;
 ```
-

@@ -31,3 +31,4 @@ Header.propTypes = {
 };
 
 export default withStyles(Header, styles);
+export { Header };
