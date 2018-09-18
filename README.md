@@ -1,4 +1,4 @@
-# Product Listing Project
+# Ecommerce Listing Project
 
 ## Technology Stack
 
@@ -108,4 +108,4 @@ const Link = styled.a`
   }
 `;
 ```
-# ecommerce-listing
+
