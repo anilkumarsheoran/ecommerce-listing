@@ -31,28 +31,38 @@ This Architecture is based on the Atomic Design methodology.
 │   │   ├── Image
 │   │   │   ├── Image.js
 │   │   │   └── index.js
-│   │   ├── SelectBox
-│   │   │   ├── SelectBox.js
-│   │   │   ├── SelectBox.style.js
-│   │   │   └── index.js
+│   │   └── SelectBox
+│   │       ├── SelectBox.js
+│   │       ├── SelectBox.style.js
+│   │       ├── index.js
+│   │       └── test
+|   |          └── SelectBox.test.js
 │   ├── molecules
 │   │   ├── Header
 │   │   │   ├── Header
 │   │   │   ├── Header.style.js
 │   │   │   └── index.js
+│   │   │   └── test
+|   |   |       └── Header.test.js
 │   │   └── Product
 │   │       ├── Product.js
 │   │       ├── Product.style.js
-│   │       └── index.js
+│   │       ├── index.js
+│   │       └── test
+|   |           └── Product.test.js
 │   ├── organisms
 │   │   └── ProductList
 │   │       ├── ProductList.js
 │   │       ├── ProductList.style.js
-│   │       └── index.js
+│   │       ├── index.js
+│   │       └── test
+|   |            └── SelectBox.test.js
 │   └── templates
-│   │   └── Productlisting
-│   │       ├── Productlisting.js
-│   │       └── index.js
+│       └── Productlisting
+│           ├── Productlisting.js
+│           ├── index.js
+│           └── test
+|                └── Productlisting.test.js
 ├── constants
 │   └── index.js
 │   └── serviceURL.js
